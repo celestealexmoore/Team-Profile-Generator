@@ -1,3 +1,8 @@
+const inquirer = require("inquirer");
+const fs = require("fs");
+const path = require("path");
+const generateHTML = require("./Assets/generateHTML");
+
 const allQuestions = {
 
     managerQuestions: [
@@ -101,3 +106,24 @@ const allQuestions = {
 };
 
 module.exports = allQuestions;
+
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(allQuestions)
+    .then((response) => {
+        console.log('Generating Team Profile Now!');
+        writeToFile('index.html', generateHTML({... response}))
+    })
+}
+
+//the '...' is called the "Spread method." If you don't use it, the response would all be jumbled onto one line.
+
+
+// Function call to initialize app
+init();
