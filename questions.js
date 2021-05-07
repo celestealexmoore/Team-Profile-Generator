@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
-const generateHTML = require("./Assets/generateHTML");
+const generateHTML = require("./Develop/generateHTML");
 
 const allQuestions = {
 
