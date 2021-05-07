@@ -7,7 +7,7 @@
 * [Media](#Media)
 * [Contributors](#Contributors)
 * [Contact](#Contact)
-* [Project Status](Project Status)
+* [Status](#Project-Status)
 
 
 ## Description
@@ -17,7 +17,7 @@ This project generates an HTML profile of my classmates by answering questions v
 
 ## Installation
 
-To install, make sure the repository is cloned and install inquirer along with other necessary dependencies. In the folder via the command line, type 'node index.js' and follow the on-screen prompts. Upon entry of the last input, the user should see the success message, "Generating README.md file."
+To install, make sure the repository is cloned and install inquirer along with other necessary dependencies. In the folder via the command line, type 'node index.js' and follow the on-screen prompts. Upon entry of the last input, the user should see the success message, "Generating Team Profile."
 
 ## Media
 
