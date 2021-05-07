@@ -1,21 +1,36 @@
-# 10 Object-Oriented Programming: Team Profile Generator
+# Team Profile Generator
+
+## Table of Contents
+
+* [Description](#Description)
+* [Installation](#Installation)
+* [Media](#Media)
+* [Contributors](#Contributors)
+* [Contact](#Contact)
+* [Project Status](Project Status)
+
 
 ## Description
 
-Create an HTML profile of your team by answering questions via the command line. This project uses HTML, CSS, JavaScript, Node, Inquirer, and Jest.
+This project generates an HTML profile of my classmates by answering questions via the command line, utilizing HTML, CSS, JavaScript, Node, Inquirer, and Jest.
 
 
 ## Installation
 
-1. Clone this repository
-2. Run npm install in server.js
-3. Follow the prompts
-4. 
+To install, make sure the repository is cloned and install inquirer along with other necessary dependencies. In the folder via the command line, type 'node index.js' and follow the on-screen prompts. Upon entry of the last input, the user should see the success message, "Generating README.md file."
 
-## Mock-Up Video
+## Media
 
-## Author
+Click the link to view the mock-up video:
 
-Celeste Moore
+## Contributors
 
-Find my other repositories on GitHub @celestealexmoore.# Week-10-Homework
+This project was created by Celeste Moore.
+
+## Contact
+
+If you have any questions about this repository, contact @celestealexmoore via GitHub or reach out via email: celestealexmoore@gmail.com.
+
+## Project Status
+
+In Progress
