@@ -109,7 +109,6 @@ const allQuestions = {
             type: 'input',
         },
 
-
         {
             type: 'list',
             name: 'employeeType',
@@ -141,9 +140,9 @@ const askQuestions = (questions) => {
                 }
             } //if engineer/intern are hit, render those questions else make html
             if (answers.employeeType === "Engineer") {
-                askQuestions(engineerQuestions);
+                askQuestions(allQuestions.engineerQuestions);
             } else if (answers.employeeType === "Intern") {
-                askQuestions(internQuestions)
+                askQuestions(allQuestions.internQuestions)
             } else { //its done, make the html
                 writeToFile('./index.html', generateHTML(employeeArray));
             }
@@ -158,4 +157,4 @@ const askQuestions = (questions) => {
         });
 }
 
-askQuestions(allQuestions);
+askQuestions(allQuestions.managerQuestions);

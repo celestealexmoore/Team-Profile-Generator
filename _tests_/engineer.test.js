@@ -1,4 +1,4 @@
-const engineerProfile = require('../lib/engineerProfile');
+const engineerProfile = require('../lib/engineer');
 
 describe("Engineer constructor", () => {
     describe("Initialization", () => {

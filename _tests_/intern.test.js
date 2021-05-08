@@ -1,4 +1,4 @@
-const internProfile = require('../lib/internProfile');
+const internProfile = require('../lib/intern');
 
 describe("Intern constructor", () => {
     describe("Initialization", () => {

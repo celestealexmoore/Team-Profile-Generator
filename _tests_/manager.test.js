@@ -4,7 +4,7 @@ describe("Manager constructor", () => {
     describe("Initialization", () => {
 
         it("Should be an object instance of the Engineer Class", () => {
-            expect(typeof new manager()).toBe("object");
+            expect(typeof new Manager()).toBe("object");
         })
 
         it("Should have managerName, managerId, managerEmail, and managerOfficeNum properties", () => {
