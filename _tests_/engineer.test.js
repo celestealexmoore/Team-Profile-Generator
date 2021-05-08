@@ -8,7 +8,7 @@ describe("Engineer constructor", () => {
         })
 
         it("Should have engineerName, engineerId, engineerEmail, and engineerGithub properties", () => {
-            const engineerName = "Celeste";
+            const engineerName = "Celeste Moore";
             const engineerId = 12345;
             const engineerEmail = "celestealexmoore@gmail.com";
             const engineerGithub = "celestealexmoore";
@@ -23,25 +23,25 @@ describe("Engineer constructor", () => {
 
     describe("getRole function", () => {
         it("Should retrieve the engineer's role (Engineer)", () => {
-            const empName = "Cesar";
-            const empId = 1;
-            const empEmail = "tester@test.com";
-            const github = "CesarOCampos";
-            const newEngineer = new Engineer(empName, empId, empEmail, github);
+            const engineerName = "Celeste Moore";
+            const engineerId = 12345;
+            const engineerEmail = "celestealexmoore@gmail.com";
+            const engineerGithub = "celestealexmoore"
+            const newEngineer = new Engineer(engineerName, engineerId, engineerEmail, engineerGithub);
 
             expect(newEngineer.getRole()).toBe("Engineer");
         })
     })
 
-    describe("getGitHub function", () => {
+    describe("getGithub function", () => {
         it("Should retrieve the engineer's github profile name", () => {
-            const engineerName = "Celeste";
+            const engineerName = "Celeste Moore";
             const engineerId = 12345;
             const engineerEmail = "celestealexmoore@gmail.com";
-            const github = "celestealexmoore";
+            const engineerGithub = "celestealexmoore";
             const newEngineer = new Engineer(engineerName, engineerId, engineerEmail, engineerGithub);
 
-            expect(newEngineer.getGitHub()).toBe(github);
+            expect(newEngineer.getGithub()).toBe(engineerGithub);
         })
     })
 })
